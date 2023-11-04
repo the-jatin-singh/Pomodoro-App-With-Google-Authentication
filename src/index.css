@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600&family=Quicksand:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: 'Quicksand';
+    
+}
+
+body{
+    background-color: rgb(243 244 246);
+}
+
+.active {
+    font-weight: 600;
+    text-decoration: underline;
+    color:#50d71e
+}
+
+.profile-img {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+ 
+}
+
+.time-counter {
+    font-family: 'Cabin';
+}
+
+.time-circle {
+    filter:drop-shadow(5px 5px 10px #4ade8033);
+}
+
+.active-timer-button{
+    border-radius: 40px;
+    background-color: #4ADE80;
+    color: white;
+    filter:drop-shadow(5px 5px 5px #4ade801c);
+}
+
+.watch, .welcome-text {
+    user-select: none;
+}
+
+.work, .short-break {
+    cursor: pointer;
+}
+
+.option-button {
+    
+    transition: 0.15s; /* You can adjust the duration and easing function */
+}
